@@ -3,7 +3,7 @@ from collections import Counter
 from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-text = ""
+text = "" # string to bem filled by the file content
 
 with open("text.txt", "r") as opened_file:
     text = opened_file.read()
